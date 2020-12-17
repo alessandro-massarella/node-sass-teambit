@@ -1,3 +1,75 @@
+.icon-img {
+  width: 100px;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+main {
+  background-color: #fbe8d4;
+  height: 1000px;
+}
+
+.navbar {
+  height: 60px;
+  border-bottom: 1px solid black;
+  display: flex;
+  align-items: center;
+}
+
+.navbar li {
+  list-style: none;
+  display: inline;
+  padding-left: 10px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #0e0e0e;
+}
+
+.navbar .nav-menu {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.jumbotron {
+  height: 400px;
+}
+
+.jumbotron .text_jumbotron {
+  height: 400px;
+  background-color: brown;
+}
+
+.jumbotron .back_jumbotron {
+  height: 400px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+
+/* per la clearfix */
+
+.container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+[class*=col-] {
+  float: left;
+}
+
 @media screen and (min-width: 992px) {
   .col-lg-1 {
     width: 8.3333333333%;
@@ -102,6 +174,60 @@
   }
 
   .col-md-13 {
+    width: 108.3333333333%;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+  .col-xs-1 {
+    width: 8.3333333333%;
+  }
+
+  .col-xs-2 {
+    width: 16.6666666667%;
+  }
+
+  .col-xs-3 {
+    width: 25%;
+  }
+
+  .col-xs-4 {
+    width: 33.3333333333%;
+  }
+
+  .col-xs-5 {
+    width: 41.6666666667%;
+  }
+
+  .col-xs-6 {
+    width: 50%;
+  }
+
+  .col-xs-7 {
+    width: 58.3333333333%;
+  }
+
+  .col-xs-8 {
+    width: 66.6666666667%;
+  }
+
+  .col-xs-9 {
+    width: 75%;
+  }
+
+  .col-xs-10 {
+    width: 83.3333333333%;
+  }
+
+  .col-xs-11 {
+    width: 91.6666666667%;
+  }
+
+  .col-xs-12 {
+    width: 100%;
+  }
+
+  .col-xs-13 {
     width: 108.3333333333%;
   }
 }

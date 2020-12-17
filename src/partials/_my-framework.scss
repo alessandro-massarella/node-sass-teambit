@@ -1,3 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+  }
+  
+  /* per la clearfix */
+  .container::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  [class*="col-"] {
+    float: left;
+  }
+  
+
+
 // creo le colonne "large" in stile bootstrap
 @media screen and (min-width: 992px) {
 
@@ -28,19 +53,3 @@
     }
 }
 
-.container {
-    max-width: 1170px;
-    margin: auto;
-  }
-  
-  /* per la clearfix */
-  .container::after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  [class*="col-"] {
-    float: left;
-  }
-  
