@@ -1,0 +1,46 @@
+// creo le colonne "large" in stile bootstrap
+@media screen and (min-width: 992px) {
+
+    @for $i from 1 through 13 {
+        .col-lg-#{$i} {
+            width: (100% / 12) * $i;
+        }
+    }
+}
+
+// creo le colonne "medium" in stile bootstrap
+@media screen and (min-width: 768px) {
+
+    @for $i from 1 through 13 {
+        .col-md-#{$i} {
+            width: (100% / 12) * $i;
+        }
+    }
+}
+
+// creo le colonne "xs" in stile bootstrap
+@media screen and (min-width: 0px) and (max-width: 767px) {
+
+    @for $i from 1 through 13 {
+        .col-xs-#{$i} {
+            width: (100% / 12) * $i;
+        }
+    }
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+  }
+  
+  /* per la clearfix */
+  .container::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  [class*="col-"] {
+    float: left;
+  }
+  
