@@ -31,6 +31,15 @@
             width: (100% / 12) * $i;
         }
     }
+    // offset
+    @for $i from 1 through 13 {
+        .col-lg-offset-#{$i} {
+            margin-left: (100% / 12) * $i;
+        }
+    }
+
+
+
 }
 
 // creo le colonne "medium" in stile bootstrap
@@ -41,6 +50,13 @@
             width: (100% / 12) * $i;
         }
     }
+    // offset
+    @for $i from 1 through 13 {
+        .col-md-offset-#{$i} {
+            margin-left: (100% / 12) * $i;
+        }
+    }
+    
 }
 
 // creo le colonne "xs" in stile bootstrap
@@ -51,5 +67,12 @@
             width: (100% / 12) * $i;
         }
     }
+    // offset
+    @for $i from 1 through 13 {
+        .col-xs-offset-#{$i} {
+            margin-left: (100% / 12) * $i;
+        }
+    }
+
 }
 
