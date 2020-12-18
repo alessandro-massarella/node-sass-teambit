@@ -1,7 +1,13 @@
+@use 'variables';
+
 main {
-    background-color: $background-color-alt;
+    background-color: variables.$background-color-alt;
     .section2 {
-        background-color: $background-color;
+        background-color: variables.$background-color;
+    }
+
+    .section3 {
+        background-color: variables.$background-color-alt;
     }
 
     .rounded_box {
@@ -10,6 +16,8 @@ main {
         border-radius: 10px;
         border: 1px solid blue;
         background-color: white;
+        font-size:x-small;
+        padding: 10px;
 
         img {
             width: 30px;

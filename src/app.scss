@@ -1,7 +1,6 @@
-@import 'partials/variables';
-@import 'partials/common';
-@import 'partials/footer';
-@import 'partials/main';
-@import 'partials/header';
-@import 'partials/navbar';
-@import 'partials/my-framework';
+@use 'partials/common';
+@use 'partials/footer';
+@use 'partials/main';
+@use 'partials/header';
+@use 'partials/navbar';
+@use 'partials/my-framework';

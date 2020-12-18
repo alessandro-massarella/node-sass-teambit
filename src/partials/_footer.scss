@@ -1,0 +1,22 @@
+@use 'variables';
+
+
+footer {
+    font-size: smaller;
+    a {
+        text-decoration: none;
+        color: variables.$link-color;
+        font-weight: bold;
+        font-size: smaller;
+    }
+
+    h3 {
+        margin-bottom: 20px;
+    }
+
+    // .list-footer {
+    //     margin-left: 10px;
+    // }
+    
+}
+

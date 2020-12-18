@@ -1,24 +1,20 @@
+@use 'variables';
 
-// caratteristiche testo
-$text-size: 14px;
-$font-family: 'Montserrat', sans-serif;
-$main-color: rgb(14, 14, 14);
-$link-color: rgb(14, 14, 14);
-
-$button-color: #2f4593;
-
-$background-color: white;
-$background-color-alt: #fbe8d4;
+.teambit_logo {
+    width: 100px;
+}
 
 body {
-    font-family: $font-family;
+    font-family: variables.$font-family;
     a {
         text-decoration: none;
+        line-height: 30px;
+        font-size: small;
     }
 }
 
 .my_button {
-    background-color: $button-color;
+    background-color: variables.$button-color;
     padding: 5px;
     padding-left: 10px;
     padding-right: 10px;
@@ -26,11 +22,24 @@ body {
     color: white;
     font-size: x-small;
     font-weight: bolder;
-
 }
 
 li {
     list-style: none;
 }
+
+p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
+}
+
+* {
+
+    p {
+        font-size: small;
+    }
+}
+
 
 

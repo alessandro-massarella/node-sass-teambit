@@ -1,5 +1,7 @@
+@use 'variables';
+
 .navbar {
-    height: 60px;
+    height: 40px;
     border-bottom: 1px solid black;
     display: flex;
     align-items: center;
@@ -11,11 +13,15 @@
     
     a {
         text-decoration: none;
-        color: $link-color;
+        color: variables.$link-color;
    }
 
    .nav-menu {
        display: flex;
        justify-content: flex-end;
+
+       .my_button {
+           color: white;
+       }
    }
 }

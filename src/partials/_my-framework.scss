@@ -1,3 +1,5 @@
+@use 'variables';
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -74,5 +76,25 @@
         }
     }
 
+}
+
+// margine superiore
+.margin_top {
+    margin-top: 30px;
+}
+.margin_bottom {
+    margin-bottom: 30px;
+}
+
+// flex allineamento centrale orizzontale
+.flex-justify-center {
+    display: flex;
+    justify-content: center;
+}
+
+// flex allineamento centrale verticale
+.flex-align-center {
+    display: flex;
+    align-items: center;
 }
 

@@ -1,12 +1,25 @@
+// caratteristiche testo
+$text-size: 12px;
+$font-family: 'Montserrat', sans-serif;
+$main-color: #0414B3; /* dark blue */
+$link-color: #3E14E9; /* Persian blue */
+
+$button-color: blue;
+
+$background-color: white;
+// $background-color-alt: #fbe8d4;
+$background-color-alt: #7F14D4;
+
+
 // ridimensiono le illustrazioni più piccole
 .icon-img {
     width: 100px;
 }
 
 .illustration {
-    width: 100%;
+    width: 90%;
 }
 
 .small_illustration {
-    width: 100%;
+    width: 90%;
 }
