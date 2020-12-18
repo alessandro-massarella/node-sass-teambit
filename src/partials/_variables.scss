@@ -13,7 +13,14 @@ $background-color-alt: #7F14D4;
 
 // ridimensiono le illustrazioni più piccole
 .icon-img {
-    width: 100px;
+    width: 150px;
+}
+
+.icon-img-small {
+    width: 90px;
+}
+.icon-img-big {
+    width: 300px;
 }
 
 .illustration {

@@ -3,7 +3,15 @@
 /* Persian blue */
 
 .icon-img {
-  width: 100px;
+  width: 150px;
+}
+
+.icon-img-small {
+  width: 90px;
+}
+
+.icon-img-big {
+  width: 300px;
 }
 
 .illustration {
@@ -70,6 +78,10 @@ footer h3 {
 
 main {
   background-color: #7F14D4;
+}
+
+main .section1 .after_div {
+  border-bottom: 1px solid black;
 }
 
 main .section2 {

@@ -2,6 +2,17 @@
 
 main {
     background-color: variables.$background-color-alt;
+
+    .section1 {
+        .after_div {
+            border-bottom: 1px solid black;
+        }
+    }
+
+
+
+
+
     .section2 {
         background-color: variables.$background-color;
     }
